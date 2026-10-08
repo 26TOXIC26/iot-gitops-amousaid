@@ -15,7 +15,7 @@ spec: # Define the desired state of the Deployment
     spec: # Define the desired Pod configuration
       containers: # Define the containers inside the Pod
         - name: playground # Set the container name
-          image: wil42/playground:v1 # Use the v1 Docker image
+          image: wil42/playground:v2 # Use the v1 Docker image
           ports: # Define the ports used by the container
             - containerPort: 8888 # The application listens on port 8888
 --- # Start a new Kubernetes object
